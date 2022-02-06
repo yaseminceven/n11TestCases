@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-06T22:26:20 TRT" name="SearchPhone" finished-at="2022-02-06T22:27:21 TRT" duration-ms="60809">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.Runner@302552ec]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.Runner@c0c2f8d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-02-06T22:26:20 TRT" name="FIREFOX_TEST" finished-at="2022-02-06T22:27:18 TRT" duration-ms="58607">
+      <class name="runners.Runner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.Runner@302552ec]" started-at="2022-02-06T22:26:20 TRT" name="setUpClass" finished-at="2022-02-06T22:26:22 TRT" duration-ms="2386" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@740773a3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:runners.Runner@302552ec]" started-at="2022-02-06T22:26:22 TRT" name="setUp" finished-at="2022-02-06T22:26:35 TRT" duration-ms="12592" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[prod]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.Runner@302552ec]" started-at="2022-02-06T22:26:35 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-06T22:27:16 TRT" duration-ms="41690" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search for phone, sort and list free shipments"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Search for phone]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:runners.Runner@302552ec]" started-at="2022-02-06T22:27:16 TRT" name="tearDown" finished-at="2022-02-06T22:27:17 TRT" duration-ms="1042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.Runner@302552ec]" started-at="2022-02-06T22:27:18 TRT" name="tearDownClass" finished-at="2022-02-06T22:27:18 TRT" duration-ms="800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.Runner -->
+    </test> <!-- FIREFOX_TEST -->
+    <test started-at="2022-02-06T22:26:20 TRT" name="CHROME_TEST" finished-at="2022-02-06T22:27:21 TRT" duration-ms="60809">
+      <class name="runners.Runner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.Runner@c0c2f8d]" started-at="2022-02-06T22:26:20 TRT" name="setUpClass" finished-at="2022-02-06T22:26:22 TRT" duration-ms="2388" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7748410a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:runners.Runner@c0c2f8d]" started-at="2022-02-06T22:26:22 TRT" name="setUp" finished-at="2022-02-06T22:26:27 TRT" duration-ms="5291" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[prod]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.Runner@c0c2f8d]" started-at="2022-02-06T22:26:27 TRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-06T22:27:20 TRT" duration-ms="52211" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search for phone, sort and list free shipments"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Search for phone]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:runners.Runner@c0c2f8d]" started-at="2022-02-06T22:27:20 TRT" name="tearDown" finished-at="2022-02-06T22:27:20 TRT" duration-ms="774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.Runner@c0c2f8d]" started-at="2022-02-06T22:27:20 TRT" name="tearDownClass" finished-at="2022-02-06T22:27:21 TRT" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.Runner -->
+    </test> <!-- CHROME_TEST -->
+  </suite> <!-- SearchPhone -->
+</testng-results>
